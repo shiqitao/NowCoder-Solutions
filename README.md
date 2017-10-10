@@ -6,7 +6,7 @@
 
 | Sequence | Problem                                  | Level | Language | Passing |
 | :------: | ---------------------------------------- | :---: | :------: | :-----: |
-|    1     | [网易2018校园招聘编程题真题集合](https://www.nowcoder.com/test/6910869/summary) |  3★   |   C++    |   8/8   |
-|          |                                          |       |          |         |
+|    1     | [网易2018校园招聘编程题真题集合](https://www.nowcoder.com/test/6910869/summary) |  ★★★  |   C++    |   8/8   |
+|    2     | [网易2018校招内推编程题集合](https://www.nowcoder.com/test/6291726/summary) |  ★★★  |   C++    |   8/8   |
 |          |                                          |       |          |         |
 
