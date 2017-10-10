@@ -27,6 +27,7 @@ int main()
 		result = min(result, DP[(n - 1)*n + i]);
 	}
 	cout << result;
+	delete[] data;
 	delete[] DP;
 	return 0;
 }
