@@ -31,7 +31,11 @@ int main()
 							DP[k][0] = 1;
 						}
 					}
+					for (int p = 1; p < y; p++) {
+						for (int q = 1; q < x; q++) {
 
+						}
+					}
 
 					for (int k = 0; k < x; k++) {
 						delete[] DP[k];
