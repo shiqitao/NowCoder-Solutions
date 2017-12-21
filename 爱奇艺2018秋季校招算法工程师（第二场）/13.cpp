@@ -1,40 +1,20 @@
 #include <iostream>
+#include <stack>
 #include <algorithm>
 using namespace std;
 int main()
 {
 	int n; cin >> n;
-	int *data = new int[n];
+	stack<int> data;
+	int result = 0;
 	for (int i = 0; i < n; i++) {
-		cin >> data[i];
+		int temp; cin >> temp;
+		while (!data.empty() && temp>data.top()) {
+			result = max(result, temp^data.top()), data.pop();
+		}
+		if (!data.empty()) result = max(result, temp^data.top());
+		data.push(temp);
 	}
-	int i = -1, j = n, max1, max2, index1, index2, maxor;
-	while (true) {
-		if (j == n) {
-			i++; j = i + 1;
-			while (j != n && data[j] == data[i]) j++;
-			if (j == n) break;
-			max1 = max(data[i], data[j]);
-			max2 = min(data[i], data[j]);
-			index1 = data[i] > data[j] ? i : j;
-			index2 = data[i] > data[j] ? j : i;
-			maxor = max(max1^max2, maxor);
-		}
-		if (data[j] <= max2 || data[j] == max1) {
-			j++;
-		}
-		else if (i == index1 && data[j] > max1) {
-			index1 = j; max1 = data[j];
-			index2 = i; max2 = data[i];
-			maxor = max(max1^max2, maxor);
-		}
-		else if (i == index1) {
-			index2 = j; max2 = data[j];
-			maxor = max(max1^max2, maxor);
-		}
-		else j = n;
-	}
-	cout << maxor << endl;
-	delete[] data;
+	cout << result << endl;
 	return 0;
 }
