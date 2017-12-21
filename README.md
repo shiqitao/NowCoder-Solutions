@@ -4,9 +4,10 @@
 
 ### List of questions
 
-| Sequence | Problem                                  | Level | Language | Passing |
-| :------: | ---------------------------------------- | :---: | :------: | :-----: |
-|    1     | [网易2018校园招聘编程题真题集合](https://www.nowcoder.com/test/6910869/summary) |  ★★★  |   C++    |   8/8   |
-|    2     | [网易2018校招内推编程题集合](https://www.nowcoder.com/test/6291726/summary) |  ★★★  |   C++    |   8/8   |
-|          |                                          |       |          |         |
+| Problem                                  | Level | Language | Passing |
+| ---------------------------------------- | :---: | :------: | :-----: |
+| [爱奇艺2018秋季校招算法工程师（第一场）](https://www.nowcoder.com/test/8246915/summary) |  ★★★  |   C++    |   3/3   |
+| [网易2018校园招聘编程题真题集合](https://www.nowcoder.com/test/6910869/summary) |  ★★★  |   C++    |   8/8   |
+| [网易2018校招内推编程题集合](https://www.nowcoder.com/test/6291726/summary) |  ★★★  |   C++    |   8/8   |
+|                                          |       |          |         |
 

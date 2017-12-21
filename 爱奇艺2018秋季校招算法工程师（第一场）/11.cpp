@@ -19,5 +19,6 @@ int main()
 		result = result*(num[i] - i) % mod;
 	}
 	cout << result << endl;
+	delete[] num;
 	return 0;
 }
