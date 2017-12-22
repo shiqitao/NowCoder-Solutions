@@ -1,22 +1,23 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
-double f[100];
 int main()
 {
-	int boring, unboring;
-	cin >> boring >> unboring;
-	int all = boring + unboring;
-	double pos = (double)all*(all - 1) / 2;
-	for (int i = 1; i <= unboring; i++)
+	int n, m;
+	cin >> n >> m;
+	int all = n + m;
+	double *E = new double[m + 1];
+	double pos = all*(all - 1) / 2.0;
+	for (int i = 1; i <= m; i++)
 	{
 		int x = i, y = all - i;
-		double c1 = y*(y - 1) / pos / 2;
-		double c2 = y*x / pos;
-		double c3 = x*(x - 1) / pos / 2;
-		f[i] += c2*(f[i - 1] + 1);
-		if (i >= 2) f[i] += c3*(f[i - 2] + 1);
-		f[i] = (f[i] + c1) / (1 - c1);
+		double e1 = y*(y - 1) / pos / 2;
+		double e2 = y*x / pos;
+		double e3 = x*(x - 1) / pos / 2;
+		E[i] += e2*(E[i - 1] + 1);
+		if (i >= 2) E[i] += e3*(E[i - 2] + 1);
+		E[i] = (E[i] + e1) / (1 - e1);
 	}
-	printf("%.1lf", f[unboring]);
+	cout << setiosflags(ios::fixed) << setprecision(1) << E[m] << endl;
 	return 0;
 }
