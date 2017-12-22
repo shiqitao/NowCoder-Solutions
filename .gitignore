@@ -1,1 +1,4 @@
 NowCoder_C++/
+*.filters
+*.vcxproj
+Debug/

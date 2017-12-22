@@ -19,7 +19,7 @@ int main()
 		if (A[i] == 0) cout << "N";
 		else if (i == 3) cout << setiosflags(ios::fixed) << setprecision(1) << (double)A[i] / B3;
 		else cout << A[i];
-		if (i != 5) cout << " ";
+		if (i != 4) cout << " ";
 	}
 	return 0;
 }
