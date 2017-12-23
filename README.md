@@ -6,7 +6,7 @@
 
 | Problem                                  | Level | Language | Passing |
 | ---------------------------------------- | :---: | :------: | :-----: |
-| [PAT乙级(Basic Level)真题](https://www.nowcoder.com/pat/6/problems) |  ★★   |   C++    |  7/30   |
+| [PAT乙级(Basic Level)真题](https://www.nowcoder.com/pat/6/problems) |  ★★   |   C++    |  10/30  |
 | [爱奇艺2018秋季校招算法工程师（第一场）](https://www.nowcoder.com/test/8246915/summary) |  ★★★  |   C++    |   3/3   |
 | [爱奇艺2018秋季校招算法工程师（第二场）](https://www.nowcoder.com/test/8246859/summary) |  ★★★  |   C++    |   3/3   |
 | [爱奇艺2018秋季校招算法工程师（第三场）](https://www.nowcoder.com/test/8246483/summary) |  ★★★  |   C++    |   3/3   |
