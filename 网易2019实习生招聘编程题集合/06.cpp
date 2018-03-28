@@ -76,6 +76,7 @@ int main()
 		delete[] map[i];
 	}
 	delete[] map;
+	delete[] rect;
 	cout << maxNum;
 	return 0;
 }

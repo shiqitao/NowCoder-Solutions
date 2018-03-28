@@ -8,8 +8,10 @@ int main()
 		count = n;
 		count = count*count;
 	}
-	for (int y = k + 1; y <= n; y++) {
-		count += n / y*(y - k) + (n % y >= k ? n % y - k + 1 : 0);
+	else {
+		for (int y = k + 1; y <= n; y++) {
+			count += n / y*(y - k) + (n % y >= k ? n % y - k + 1 : 0);
+		}
 	}
 	cout << count;
 	return 0;
