@@ -25,7 +25,7 @@ int main()
 		people[i].index = i;
 	}
 	sort(work, work + n, cmp1);
-	sort(people, people + n, cmp2);
+	sort(people, people + m, cmp2);
 	int j = 0, maxMoney = 0;
 	for (int i = 0; i < m; i++) {
 		while (j < n) {
@@ -37,8 +37,8 @@ int main()
 		}
 		people[i].money = maxMoney;
 	}
-	sort(people, people + n, cmp3);
-	for (int i = 0; i < n; i++) {
+	sort(people, people + m, cmp3);
+	for (int i = 0; i < m; i++) {
 		cout << people[i].money << endl;
 	}
 	delete[] work;
