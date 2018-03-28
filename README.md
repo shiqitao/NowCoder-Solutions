@@ -6,6 +6,7 @@
 
 | Problem                                  | Level | Language | Passing |
 | ---------------------------------------- | :---: | :------: | :-----: |
+| [网易2019实习生招聘编程题集合](https://www.nowcoder.com/test/9763997/summary) |  ★★★  |   C++    |   8/8   |
 | [2018年校招全国统一模拟笔试（第一场）编程题集合](https://www.nowcoder.com/test/9439037/summary) |  ★★   |   C++    |   6/6   |
 | [Nowcoder Girl 2017题目集合](https://www.nowcoder.com/test/8527168/summary) |  ★★★  |   C++    |   6/6   |
 | [PAT乙级(Basic Level)真题](https://www.nowcoder.com/pat/6/problems) |  ★★   |   C++    |  23/30  |
