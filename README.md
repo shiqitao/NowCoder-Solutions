@@ -17,5 +17,5 @@
 | [爱奇艺2018秋季校招算法工程师（第三场）](https://www.nowcoder.com/test/8246483/summary) |   爱奇艺   | 2017 |  ★★★  |   C++    |   3/3   |
 | [2018年校招全国统一模拟笔试（第一场）编程题集合](https://www.nowcoder.com/test/9439037/summary) |         | 2018 |  ★★   |   C++    |   6/6   |
 | [Nowcoder Girl 2017题目集合](https://www.nowcoder.com/test/8527168/summary) |         | 2017 |  ★★★  |   C++    |   6/6   |
-| [PAT乙级(Basic Level)真题](https://www.nowcoder.com/pat/6/problems) |         |      |  ★★   |   C++    |  23/30  |
+| [PAT乙级(Basic Level)真题](https://www.nowcoder.com/pat/6/problems) |         |      |  ★★   |   C++    |  28/30  |
 
