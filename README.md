@@ -7,6 +7,7 @@
 | Problem                                  | Company | Year | Level | Language | Passing |
 | ---------------------------------------- | :-----: | :--: | :---: | :------: | :-----: |
 | [腾讯2017暑期实习生编程题](https://www.nowcoder.com/test/1725829/summary) |   腾讯    | 2017 |  ★★   |   C++    |   3/3   |
+| [腾讯2016研发工程师编程题](https://www.nowcoder.com/test/710813/summary) |   腾讯    | 2016 |  ★★   |   C++    |   2/2   |
 | [网易2019实习生招聘编程题集合](https://www.nowcoder.com/test/9763997/summary) |   网易    | 2018 |  ★★★  |   C++    |   8/8   |
 | [网易2018校园招聘编程题真题集合](https://www.nowcoder.com/test/6910869/summary) |   网易    | 2017 |  ★★★  |   C++    |   8/8   |
 | [网易2018校招内推编程题集合](https://www.nowcoder.com/test/6291726/summary) |   网易    | 2017 |  ★★★  |   C++    |   8/8   |
