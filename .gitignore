@@ -2,3 +2,4 @@ NowCoder_C++/
 *.filters
 *.vcxproj
 Debug/
+test.cpp
